@@ -51,14 +51,14 @@ switch(a){
 
 
 
-// petla for
-// for (i = 1; i <= 5; i++){
-//     if (i===2) continue
-//     // pomija 2 
-//     if (i ===4) break
-//     // zatrzymuje dzialanie petli
-//     console.log(i)
-// }
+petla for
+for (i = 1; i <= 5; i++){
+    if (i===2) continue
+    // pomija 2 
+    if (i ===4) break
+    // zatrzymuje dzialanie petli
+    console.log(i)
+}
 
 let i = 0
 while (i < 10){
