@@ -244,13 +244,20 @@ var person3 = {
 // person1.sort();
 
 const newAge = person1.age + " " + person2.age + " " + person3.age
-console.log(newAge.parseFloat())
-// const sumAA = newAgeN.reduce(function(total, item, index, array){
-//     return total + item;
-// })
-// console.log(sumAA)
+console.log(parseFloat(newAge))
+let aaa = person1.age
+let bbb = person2.age
+let ccc = person3.age
 
-// const SUMA = person1.age.reduce(function(total, item, index, array){
-//     return total + item;
-// })
+console.log(aaa)
+console.log(bbb)
+console.log(ccc)
+
+
+
+const sumAA = (aaa + bbb + ccc).reduce(function(total, item, index, array){
+    return total + item;
+})
+console.log(sumAA)
+
 
